@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(31, 30, 43);
+}
+
+.container {
+    max-width: 480px;
+    /* tighter than 530px */
+    padding: 0 16px;
+    /* squeezes from left & right */
+    margin: 0 auto;
+}
+
+.a {
+    text-decoration: none;
+    font-size: 35px;
+    font-weight: 300;
+    color: white;
+    padding: 5px;
+    margin-bottom: 5px;
+    font-family: sans-serif;
+}
+
+.b {
+    color: white;
+    margin-bottom: 8px;
+    font-size: 20.5px;
+    font-family: sans-serif;
+}
+
+.c {
+    color: white;
+    margin-bottom: 8px;
+    font-size: 12.6px;
+    font-family: sans-serif;
+}
+
+.d {
+    color: #03a9f4;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.d:hover {
+    text-decoration: underline;
+    color: #03a9f4;
+}
+
+.e {
+    margin-bottom: 8px;
+    padding: 14px;
+    width: 95%;
+    border-radius: 12px;
+    background-color: rgb(31, 30, 43);
+    border: 1px solid grey;
+    color: white;
+    /* text visible on blue */
+    outline: none;
+    font-family: sans-serif;
+    /* removes default focus outline */
+}
+
+
+.f {
+    color: white;
+    font-size: 11px;
+    margin-bottom: 18px;
+    font-family: sans-serif;
+}
+
+.g {
+    width: 100%;
+    padding: 8px;
+    border-radius: 20px;
+    color: white;
+    background-color: #0d50b1;
+    outline: none;
+    border-color: #0d50b1;
+    font-family: sans-serif;
+}
+
+.h {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.i {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* match input/button width */
+    margin: 0 auto;
+    /* centers the container */
+    align-items: flex-start;
+    /* left-align items inside */
+    font-family: sans-serif;
+}
+
+.j {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* match input/button width */
+    margin: 0 auto;
+    /* centers the container */
+    align-items: flex-start;
+    /* left-align items inside */
+    font-family: sans-serif;
+}
+
+.k {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: sans-serif;
+}
