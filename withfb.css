@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f2f4f7;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.a {
+    margin-top: 48px;
+    margin-bottom: 20px;
+    color: #1161c9;
+    font-size: 45px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.b {
+    margin-bottom: 10px;
+    border: 1px solid #156fe4;
+    width: 600px;
+    padding: 8px;
+    font-size: 14.5px;
+    text-align: left;
+    font-family: sans-serif;
+    background-color: white;
+}
+
+.c {
+    background-color: white;
+    max-width: 400px;
+    height: 440px;
+    border: 1px solid white;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: sans-serif;
+    box-shadow: 0 0 4px 2px rgba(0,0,0,0.1);
+}
+.d {
+    font-size: 20px;
+    margin-top: 21px;
+    margin-bottom: 21px;
+}
+
+.e {
+    border: 1px solid rgb(235, 194, 119);
+    background-color: rgb(250, 250, 196);
+    font-size: 12px;
+    padding: 10px;
+    width: 90%;
+    text-align: center;
+    margin-bottom: 13px;
+}
+
+.f {
+    margin-bottom: 13px;
+    padding: 14px;
+    width: 88%;
+    font-size: 15px;
+    outline: line;
+    border: 1px solid grey;
+    border-radius: 5px;
+    height: 25px;
+}
+
+.g {
+    margin-bottom: 13px;
+    padding: 14px;
+    width: 88%;
+    font-size: 15px;
+    outline: line;
+    border: 1px solid grey;
+    border-radius: 5px;
+    height: 25px;
+}
+
+.i {
+    margin-bottom: 13px;
+    padding: 11px;
+    width: 89.5%;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    border: 1px solid #1877f2;
+    background-color: #1877f2;
+    color: white;
+    border-radius: 5px;
+}
+
+.i:hover {
+    background-color: #0d50b1;
+    border: 1px solid #0d50b1;
+    text-decoration: none;
+}
+
+.j {
+    margin-bottom: 13px;
+    text-decoration: none;
+    color: #0d50b1;
+}
+
+.j:hover {
+    text-decoration: underline;
+}
+
+.k {
+    margin-bottom: 13px;
+    display: flex;
+    align-items: center;
+    /* vertical alignment */
+    width: 100%;
+    /* or any container width you want */
+}
+
+.l {
+    margin-bottom: 13px;
+    width: 5cm;
+    /* fixed 2 cm long dash */
+    height: 1px;
+    /* thickness of the dash */
+    background-color: grey;
+    /* solid dash */
+    margin: 0 8px;
+    /* space between dash and "or" */
+}
+
+.m {
+    margin-bottom: 13px;
+    font-size: 11px;
+    color: grey;
+    margin: 0;
+    /* remove default p margin */
+}
+
+.n {
+    margin-bottom: 13px;
+    padding: 12px;
+    width: 47%;
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    outline: none;
+    border: 1px solid rgb(2, 159, 2);
+    background-color: rgb(2, 159, 2);
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.n:hover {
+    border: 1px solid rgb(1, 139, 1);
+    background-color: rgb(1, 139, 1);
+}

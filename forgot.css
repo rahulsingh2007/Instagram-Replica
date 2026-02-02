@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: rgb(31, 30, 43);
+    background-color: #152127;
 }
 
 .container {
@@ -42,7 +42,7 @@ body {
     border-color: white;
 }
 .d {
-    color: #03a9f4;
+    color: #1161c9; 
     text-decoration: none;
     font-family: sans-serif;
     font-weight: bold;
@@ -50,7 +50,7 @@ body {
 
 .d:hover {
     text-decoration: underline;
-    color: #03a9f4;
+    color: #1161c9;
 }
 
 .e {
@@ -58,7 +58,7 @@ body {
     padding: 14px;
     width: 95%;
     border-radius: 12px;
-    background-color: rgb(31, 30, 43);
+    background-color: #152127;
     border: 1px solid grey;
     color: white;
     /* text visible on blue */
@@ -73,6 +73,7 @@ body {
     font-size: 11px;
     margin-bottom: 18px;
     font-family: sans-serif;
+    font-weight: bold;
 }
 
 .g {
@@ -80,12 +81,18 @@ body {
     padding: 8px;
     border-radius: 20px;
     color: white;
-    background-color: #0d50b1;
+    background-color:#1161c9;
     outline: none;
-    border-color: #0d50b1;
+    border-color: #1161c9;
+    font-size: 14px;
     font-family: sans-serif;
+    text-align: center;
+    text-decoration: none;
 }
-
+.g:hover{
+    background-color: #196cd9;
+    border-color: #196cd9;
+}
 .h {
     display: flex;
     flex-direction: column;
