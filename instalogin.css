@@ -32,7 +32,9 @@ body {
     justify-content: center;
     align-items: center;
 }
-
+.toright{
+    color: linear-gradient(to right, red, pink);
+}
 .a {
     margin-top: 25px;
     margin-left: 25px;
