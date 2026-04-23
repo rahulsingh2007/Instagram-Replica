@@ -4,15 +4,14 @@
 }
 
 body {
-    background-color: #152127;
-    color: white;
+    background-color: white;
+    color: black;
 }
 
 .container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 1px solid #152127;
     max-width: 448px;
     padding: 0 16px;
     margin: 0 auto;
@@ -26,7 +25,6 @@ body {
     font-weight: 700;
     display: inline-block;
     transform: scaleY(1.7);
-    border: 1px solid #152127;
     width: 30px;
     height: 17px;
     text-align: center;
@@ -34,8 +32,7 @@ body {
 }
 
 .a:hover {
-    background-color: #23353c;
-    border: 1px solid #23353c;
+    background-color: lightgrey;
 }
 
 .b {
@@ -64,9 +61,9 @@ body {
 }
 .f {
     margin-top: 3px;
-    border: 1.5px solid #3D4F5C;
+    border: 1.5px solid lightgrey;
     border-radius: 12px;
-    background-color: #152127;
+    background-color: white;
     width: 92.5%;
     padding: 15px;
 }
@@ -78,7 +75,7 @@ body {
 }
 
 .f:hover {
-    border: 1.5px solid white;
+    border: 1.5px solid black;
 }
 .g{
     font-size: 12px;
@@ -100,9 +97,9 @@ body {
 }
 .j {
     margin-top: 3px;
-    border: 1.5px solid #3D4F5C;
+    border: 1.5px solid lightgrey;
     border-radius: 12px;
-    background-color: #152127;
+    background-color: white;
     width: 92.5%;
     padding: 15px;
     margin-bottom: 10px;
@@ -115,7 +112,7 @@ body {
 }
 
 .j:hover {
-    border: 1.5px solid white;
+    border: 1.5px solid black;
 }
 .ff{
     font-size: 14px;
@@ -130,9 +127,9 @@ body {
 
 .k {
     margin-top: 0px;
-    border: 1.5px solid #3D4F5C;
+    border: 1.5px solid lightgrey;
     border-radius: 12px;
-    background-color: #152127;
+    background-color: white;
     width: 141px;
     padding: 10px;
     color: #3D4F5C;
@@ -141,14 +138,14 @@ body {
 }
 
 .k:hover {
-    border: 1.5px solid white;
+    border: 1.5px solid black;
 }
 
 .l {
     margin-top: 0px;
-    border: 1.5px solid #3D4F5C;
+    border: 1.5px solid lightgrey;
     border-radius: 12px;
-    background-color: #152127;
+    background-color: white;
     width: 141px;
     padding: 10px;
     color: #3D4F5C;
@@ -157,14 +154,14 @@ body {
 }
 
 .l:hover {
-    border: 1.5px solid white;
+    border: 1.5px solid black;
 }
 
 .m {
     margin-top: 0px;
-    border: 1.5px solid #3D4F5C;
+    border: 1.5px solid lightgrey;
     border-radius: 12px;
-    background-color: #152127;
+    background-color: white;
     width: 141px;
     padding: 14px;
     color: #3D4F5C;
@@ -172,7 +169,7 @@ body {
     text-align: left;
 }
 .m:hover {
-    border: 1.5px solid white;
+    border: 1.5px solid black;
 }
 .n{
     margin-top: 15px;
@@ -183,9 +180,9 @@ body {
 }
 .o {
     margin-top: 0px;
-    border: 1.5px solid #3D4F5C;
+    border: 1.5px solid lightgrey;
     border-radius: 12px;
-    background-color: #152127;
+    background-color: white;
     width: 92.5%;
     padding: 15px;
 }
@@ -197,7 +194,7 @@ body {
 }
 
 .o:hover {
-    border: 1.5px solid white;
+    border: 1.5px solid black;
 }
 
 .p{
@@ -209,9 +206,9 @@ body {
 }
 .q {
     margin-top: 0px;
-    border: 1.5px solid #3D4F5C;
+    border: 1.5px solid lightgrey;
     border-radius: 12px;
-    background-color: #152127;
+    background-color: white;
     width: 92.5%;
     padding: 15px;
 }
@@ -222,7 +219,7 @@ body {
 }
 
 .q:hover {
-    border: 1.5px solid white;
+    border: 1.5px solid black;
 }
 .r{
     margin-top: 25px;
@@ -297,16 +294,17 @@ body {
 .aa {
     border: 1px solid grey;
     border-radius: 20px;
-    background-color: #152127;
+    background-color: white;
     width: 420px;
     padding: 8.5px;
-    color: white;
+    color: black;
     text-decoration: none;
     text-align: center;
     font-size: 13px;
-    font-weight: bold;
 }
-
+.aa:hover{
+    background-color: lightgrey;
+}
 .bb {
     display: flex;
     flex-direction: column;
@@ -368,7 +366,7 @@ body {
 
 .box {
     height: 100px;
-    background-color: #152127;
+    background-color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
